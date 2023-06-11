@@ -1,0 +1,70 @@
+.menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: start;
+    width: 100%;
+    margin: auto;
+  }
+  
+  .burger-item {
+    margin: 1rem;
+    position: relative;
+    overflow: auto;
+    width: 230px;
+    min-width: 230px;
+    height: 350px;
+    background-color: rgb(216, 195, 104);
+    border: black 1px solid;
+    border-radius: 0 10px ;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.308);
+  }
+  
+  .burger-title {
+    margin-top:0;
+    padding-bottom: 0.5rem;
+    text-align: center;
+    color: white;
+    font-family: 'Fredericka the Great', cursive;
+    font-weight: normal;
+    background: #963109;
+  }
+  
+  .imgburguer {
+    display: block;
+    object-fit: cover;
+    width: 200px;
+    margin: auto;
+    border: #963109 3px solid;
+    border-radius: 5px;
+  }
+
+.burger-description {
+  display: none;
+  position: absolute;
+  left: 0;
+  width: 200px;
+  margin-left: 0.5rem;
+  background-color: rgb(216, 195, 104);
+  
+}
+
+.description-toggle {
+  width: 100px;
+  display: block;
+  margin: auto;
+  margin-top: 0.5rem;
+  cursor: pointer;
+  background: rgb(112, 74, 16);
+  color: antiquewhite;
+  font-family:  'Indie Flower', cursive;
+  border: none;
+  border-radius: 5px;
+}
+
+.description-toggle:hover {
+    background: rgb(168, 116, 37);
+    text-shadow: 0 0 0.2em rgb(66, 48, 21), 0 0 0.2em rgb(71, 68, 48),
+		0 0 0.2em rgb(0, 0, 0);
+    transition: 0.5s;
+
+  }
